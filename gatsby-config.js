@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Rosiconi Web App',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
