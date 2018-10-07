@@ -1,0 +1,41 @@
+.has-background
+  background: no-repeat center
+  background-size: cover
+  overflow: hidden
+  position: relative
+
+  &:after
+    content: ''
+    display: block
+    height: 100%
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    z-index: 1
+    background: rgba(0,0,0,.4)
+
+  .hero-body,
+  .hero-foot
+    z-index: 10
+
+
+.title.is-huge
+  font-size: 4rem
+
+.navbar.is-transparent
+  background: transparent
+  border-bottom: 1px solid rgba(255,255,255,.3)
+
+.is-video-fullheight
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  height: 100vh
+
+.has-box-shadow-xs
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14)

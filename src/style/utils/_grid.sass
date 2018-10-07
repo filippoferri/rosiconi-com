@@ -1,0 +1,15 @@
+.grid-layout
+  display: grid
+  grid-template-columns: repeat(12, 1fr)
+  grid-gap: 1.5rem
+  grid-auto-flow: dense
+  padding: 2rem 1rem
+
+  @media (min-width: $desktop)
+    padding: 2rem 0
+
+.span-2 
+  grid-column-end: span 12
+
+  @media (min-width: $desktop)
+    grid-column-end: span 4

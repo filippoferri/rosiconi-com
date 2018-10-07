@@ -1,79 +1,38 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import React from "react";
+import { Link } from "gatsby";
+
+import Layout from "../components/Layout";
+
+import hero from "../img/rosiconi-matching-betting.jpg";
+
+
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-
     return (
       <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+
+        <section className="hero is-fullheight has-background"
+                 style={{ backgroundImage: `url(${hero})` }}>
+
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <span className="is-uppercase has-text-white has-text-weight-bold">Un aiuto valido per chi ha logori</span>
+              <h1 className="title is-huge has-text-white is-uppercase">denti & fegato</h1>
+
+              <Link to="/soldi-sicuri-matched-betting" className="button is-primary is-large is-uppercase is-rounded">Come rosicare* meno</Link>
+
             </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
-                </div>
-              ))}
           </div>
+
+          <div className="hero-foot">
+            <div className="container has-text-centered">
+              <span className="has-text-white"><b>*Rosicare</b> /ro·si·cà·re/ Rodersi, consumarsi per la gelosia, l’invidia</span>
+            </div>
+          </div>
+
         </section>
       </Layout>
-    )
+    );
   }
 }
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`
