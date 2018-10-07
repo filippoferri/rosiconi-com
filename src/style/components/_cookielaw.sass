@@ -1,9 +1,10 @@
 .cookie-alert
-  align-items: baseline
+  align-items: center
   background: white
   display: flex
   flex-wrap: wrap
   justify-content: space-between
+  align-content: center
   left: 0
   position: fixed
   width: 100%
@@ -12,7 +13,11 @@
 
   .cookie-content
     flex: 1 0 300px
-    margin: 15px
+    margin: .4rem
+    font-size: .7rem
+
+    @media (min-width: $desktop)
+      font-size: 1rem
 
     a
       color: $black
@@ -22,5 +27,8 @@
   button
     flex: 0 0 auto
     padding: 5px 10px
-    margin: 15px
+    margin: .4rem
     font-family: "Helvetica Neue", sans-serif
+
+    @media (min-width: $desktop)
+      margin: 1rem
