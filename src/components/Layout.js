@@ -22,7 +22,6 @@ const TemplateWrapper = ({ children }) => (
       containerClasses="cookie-alert"
       contentClasses="cookie-content"
       cookieName="rosiconidotcom"
-      debug={true}
     >Questo sito utilizza i cookie. Per maggiori informazioni, <Link to={"/privacy-policy"} rel="noopener noreferrer">clicca qui</Link>. Se per te va bene, continua a navigare.</CookieConsent>
 
   </div>
