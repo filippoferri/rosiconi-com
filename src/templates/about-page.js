@@ -61,7 +61,7 @@ const AboutPage = ({ data }) => {
                   <div className="thead-header-right has-text-right">#1</div>
                 </div>
                 <div className="thead-body">
-                  <div className="thead-body-left">
+                  <div className="thead-body-left is-hidden-mobile">
                     <div className="thead-username">michelesan</div>
                     <span className="is-block">Studente</span>
 

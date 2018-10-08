@@ -23,7 +23,10 @@
 
 
 .title.is-huge
-  font-size: 4rem
+  font-size: 3rem
+
+  @media (min-width: $desktop)
+    font-size: 4rem
 
 .navbar.is-transparent
   background: transparent
@@ -39,3 +42,10 @@
 
 .has-box-shadow-xs
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14)
+
+.button.is-large.is-responsive
+  font-size: 1.2rem
+  font-weight: 700
+
+  @media (min-width: $desktop)
+    font-size: 1.5rem

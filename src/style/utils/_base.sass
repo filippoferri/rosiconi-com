@@ -7,17 +7,20 @@ body
 a
   transition: all .2s ease-in-out
 
-.button
-  font-weight: 700
-
 .title
   font-family: 'Playfair Display', serif
 
-.hero-foot span
-  line-height: 1.2rem
+.hero-foot
+  padding: 1rem
 
   @media (min-width: $desktop)
-    line-height: 6rem
+    padding: 0
+
+  span
+    line-height: 1.2rem
+
+    @media (min-width: $desktop)
+      line-height: 6rem
 
 .content .taglist
   list-style: none
