@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 import hero from "../img/rosiconi-guadagnare-soldi-extra.jpg";
-import pic1 from "../img/profiles/pic-0001.png";
+import pic1 from "../img/profiles/pic-0001.jpg";
 import pic2 from "../img/profiles/pic-0002.jpg";
 import pic3 from "../img/profiles/pic-0003.jpg";
 import pic4 from "../img/profiles/pic-0004.jpg";
