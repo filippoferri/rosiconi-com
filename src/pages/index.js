@@ -11,11 +11,11 @@ const meta = [
 
   { name: "twitter:card", content: "summary" },
   { name: "twitter:site", content: "@rosiconidotcom" },
-  { name: "twitter:title", content: "Basta rosicare, ecco un metodo sicuro" },
+  { name: "twitter:title", content: "Basta rosicare, ecco come smettere" },
   { name: "twitter:author", content: "@rosiconidotcom" },
 
   { property: "og:type", content: "article" },
-  { property: "og:title", content: "Basta rosicare, ecco un metodo sicuro"},
+  { property: "og:title", content: "Basta rosicare, ecco come smettere"},
   { property: "og:description", content: "Ecco un metodo innovativo ed efficace per guadagnare soldi e non rosicare" },
   { property: "og:site_name", content: "rosiconi.com" },
 ];
@@ -25,7 +25,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
 
-        <Helmet title={`(1) Basta rosicare, ecco un metodo sicuro`} meta={meta}><html lang="it" /></Helmet>
+        <Helmet title={`(1) Basta rosicare, ecco come smettere`} meta={meta}><html lang="it" /></Helmet>
 
         <section className="hero is-fullheight has-background"
                  style={{ backgroundImage: `url(${hero})` }}>
