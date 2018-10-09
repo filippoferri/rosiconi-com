@@ -13,6 +13,7 @@ import pic4 from "../img/profiles/pic-0004.jpg";
 import pic5 from "../img/profiles/pic-0005.jpg";
 import pic6 from "../img/profiles/pic-0006.jpg";
 import pic7 from "../img/profiles/pic-0007.jpg";
+import pic8 from "../img/profiles/pic-0008.jpg";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -283,7 +284,38 @@ const AboutPage = ({ data }) => {
 
                     <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
                     <div className="section">
-                      NinjaBet è incredibile, vi spiega i trucchi del matching betting e vi offre gli strumenti per farlo. Lo consiglio a chi ha vuole imparare e guadagnare.</div>
+                      NinjaBet è incredibile, vi spiega i trucchi del matching betting e vi offre gli strumenti per farlo. Lo consiglio a chi vuole imparare e guadagnare.</div>
+
+                    <div className="thead-body-footer"></div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="thead-container">
+                <div className="thead-header">
+                  <div className="thead-header-left">1 Ottobre 2018, 11:24 PM</div>
+                  <div className="thead-header-right has-text-right">#8</div>
+                </div>
+                <div className="thead-body">
+                  <div className="thead-body-left">
+                    <div className="thead-username">queequeg</div>
+                    <span className="is-block">Studente</span>
+
+                    <img className="thead-avatar" src={pic8} alt="queequeg avatar" style={{width: 80}}/>
+
+                    <ul>
+                      <li>Città: Bari</li>
+                      <li>Condivisioni: 34</li>
+                      <li>Likes: 543</li>
+                    </ul>
+
+                  </div>
+                  <div className="thead-body-right">
+
+                    <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
+                    <div className="section">
+                      Non c'è niente da dire, il metodo funziona alla grande e non è illegale e soprattutto non è complicato. Assolutamente positivo, complimenti</div>
 
                     <div className="thead-body-footer"></div>
 
