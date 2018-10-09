@@ -77,7 +77,7 @@ Non solo avrai tutorial dettagliati e linee guida, ma anche tante alternative di
 ### Il Matched Betting in Italia
 Di siti che si occupano di Matched Betting ne troverai tantissimi online, ma quasi tutti sono in lingua inglese e soprattutto con riferimenti a siti non raggiungibili dall'Italia.
 
-Quello che quindi vorrei suggerirti è [NinjaBet](https://www.ninjabet.it/84761/aff), diventato in questi anni il sito di riferimento che vanta migliaia di recensioni positive.
+Quello che quindi vorrei suggerirti è [NinjaBet](https://www.ninjabet.it/84761/aff), diventato in questi anni il sito di riferimento che vanta <span class="highlight">migliaia di recensioni positive.</span>
 
 <a href="https://www.ninjabet.it/84761/aff" target="_blank">![NinjaBet il sito per guadagnare con il Matching Betting](/img/ninjabet-guadagnare-con-matching-betting.jpg)</a>
 
@@ -91,7 +91,7 @@ Gli stessi utenti hanno anche lasciato le loro recensioni sul sito TrustPilot, e
 
 Per cominciare basta veramente poco. Vi rimando al sito di [NinjaBet](https://www.ninjabet.it/84761/aff) dove troverete dei validi consigli gratis.
 
-Se avete un piccolo budget (20€) da investire per le prime offerte, non aspettare oltre, non si perde nulla ed è solo un punto di partenza. Non vi cambierà la vita, non diventerete milionari, ma guadagnare soldi extra ogni mese per le spese di ogni giorno fa sempre comodo.
+Se avete un piccolo budget (20€) da investire per le prime offerte, non aspettare oltre, non si perde nulla ed è solo un punto di partenza. Non vi cambierà la vita, non diventerete milionari, ma <span class="highlight">guadagnare soldi extra ogni mese per le spese di ogni giorno fa sempre comodo.</span>
 
 Personalmente in un anno sono riuscito a guadagnare sui **5000€**.
 

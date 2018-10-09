@@ -12,6 +12,7 @@ import pic3 from "../img/profiles/pic-0003.jpg";
 import pic4 from "../img/profiles/pic-0004.jpg";
 import pic5 from "../img/profiles/pic-0005.jpg";
 import pic6 from "../img/profiles/pic-0006.jpg";
+import pic7 from "../img/profiles/pic-0007.jpg";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -65,7 +66,7 @@ const AboutPage = ({ data }) => {
                     <div className="thead-username">michelesan</div>
                     <span className="is-block">Studente</span>
 
-                    <img className="thead-avatar" src={pic1} alt="zerorischi avatar"/>
+                    <img className="thead-avatar" src={pic1} alt="michelesan avatar"/>
 
                     <ul>
                       <li>Città: Milano</li>
@@ -98,7 +99,7 @@ const AboutPage = ({ data }) => {
                     <div className="thead-username">giacko95</div>
                     <span className="is-block">Studente</span>
 
-                    <img className="thead-avatar" src={pic2} alt="zerorischi avatar" style={{width: 80}}/>
+                    <img className="thead-avatar" src={pic2} alt="giacko95 avatar" style={{width: 80}}/>
 
                     <ul>
                       <li>Città: Torino</li>
@@ -162,7 +163,7 @@ const AboutPage = ({ data }) => {
                     <div className="thead-username">david24</div>
                     <span className="is-block">Studente</span>
 
-                    <img className="thead-avatar" src={pic3} alt="zerorischi avatar" style={{width: 80}}/>
+                    <img className="thead-avatar" src={pic3} alt="david24 avatar" style={{width: 80}}/>
 
                     <ul>
                       <li>Città: Roma</li>
@@ -238,6 +239,37 @@ const AboutPage = ({ data }) => {
                     <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
                     <div className="section">
                       Il metodo fa quello che promette, ci vuole tempo per ingranare io dopo 1 mesetto ho iniziato ad avere guadagni interessanti.</div>
+
+                    <div className="thead-body-footer"></div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="thead-container">
+                <div className="thead-header">
+                  <div className="thead-header-left">1 Ottobre 2018, 9:39 PM</div>
+                  <div className="thead-header-right has-text-right">#7</div>
+                </div>
+                <div className="thead-body">
+                  <div className="thead-body-left">
+                    <div className="thead-username">gimborock</div>
+                    <span className="is-block">Studente</span>
+
+                    <img className="thead-avatar" src={pic7} alt="gimborock avatar" style={{width: 80}}/>
+
+                    <ul>
+                      <li>Città: Bologna</li>
+                      <li>Condivisioni: 87</li>
+                      <li>Likes: 189</li>
+                    </ul>
+
+                  </div>
+                  <div className="thead-body-right">
+
+                    <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
+                    <div className="section">
+                      NinjaBet è incredibile, vi spiega i trucchi del matching betting e vi offre gli strumenti per farlo. Lo consiglio a chi ha vuole imparare e guadagnare.</div>
 
                     <div className="thead-body-footer"></div>
 
