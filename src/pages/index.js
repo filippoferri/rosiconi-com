@@ -4,13 +4,28 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 
 import hero from "../img/rosiconi-matching-betting.jpg";
+import Helmet from "react-helmet";
 
+const meta = [
+  { name: "description", content: "Ecco un metodo innovativo ed efficace per guadagnare soldi e non rosicare" },
 
+  { name: "twitter:card", content: "summary" },
+  { name: "twitter:site", content: "@rosiconidotcom" },
+  { name: "twitter:title", content: "Basta rosicare, ecco un metodo sicuro" },
+  { name: "twitter:author", content: "@rosiconidotcom" },
+
+  { property: "og:type", content: "article" },
+  { property: "og:title", content: "Basta rosicare, ecco un metodo sicuro"},
+  { property: "og:description", content: "Ecco un metodo innovativo ed efficace per guadagnare soldi e non rosicare" },
+  { property: "og:site_name", content: "rosiconi.com" },
+];
 
 export default class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
+
+        <Helmet title={`(1) Basta rosicare, ecco un metodo sicuro`} meta={meta}><html lang="it" /></Helmet>
 
         <section className="hero is-fullheight has-background"
                  style={{ backgroundImage: `url(${hero})` }}>

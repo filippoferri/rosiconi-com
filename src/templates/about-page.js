@@ -32,13 +32,27 @@ AboutPageTemplate.propTypes = {
   contentComponent: PropTypes.func
 };
 
+const meta = [
+  { name: "description", content: "Ecco un metodo innovativo ed efficace per guadagnare soldi con il Matching Betting" },
+
+  { name: "twitter:card", content: "summary" },
+  { name: "twitter:site", content: "@rosiconidotcom" },
+  { name: "twitter:title", content: "Basta rosicare, inizia a guadagnare soldi extra" },
+  { name: "twitter:author", content: "@rosiconidotcom" },
+
+  { property: "og:type", content: "article" },
+  { property: "og:title", content: "Basta rosicare, inizia a guadagnare soldi extra"},
+  { property: "og:description", content: "Ecco un metodo innovativo ed efficace per guadagnare soldi con il Matching Betting" },
+  { property: "og:site_name", content: "rosiconi.com" },
+];
+
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
 
-      <Helmet title={`(1) Basta rosicare, guadagna soldi sicuri`}/>
+      <Helmet title={`(1) Basta rosicare, inizia a guadagnare soldi extra`} meta={meta}><html lang="it" /></Helmet>
 
       <section className="hero is-medium has-background"
                style={{ backgroundImage: `url(${hero})` }}>
