@@ -22,6 +22,7 @@ const Navbar = () => (
           </figure>
         </Link>
       </div>
+      <div className="navbar-menu">
       <div className="navbar-end">
         <div className="navbar-item">
           <span className="is-hidden-touch">Condividi con un rosicone:</span>
@@ -48,6 +49,7 @@ const Navbar = () => (
             <img className="social-icon" src={whatsapp} alt="whatsapp"/>
           </WhatsappShareButton>
         </div>
+      </div>
       </div>
     </div>
   </nav>
