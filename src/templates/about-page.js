@@ -62,7 +62,7 @@ const AboutPage = ({ data }) => {
           <div className="container has-text-centered">
             <div className="columns">
               <div className="column is-8 is-offset-2">
-                <h1 className="title has-text-white is-huge">{post.frontmatter.title}</h1>
+                <h1 className="title has-text-white is-huge has-huge-padding">{post.frontmatter.title}</h1>
               </div>
             </div>
           </div>
