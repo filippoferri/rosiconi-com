@@ -14,6 +14,7 @@ import pic5 from "../img/profiles/pic-0005.jpg";
 import pic6 from "../img/profiles/pic-0006.jpg";
 import pic7 from "../img/profiles/pic-0007.jpg";
 import pic8 from "../img/profiles/pic-0008.jpg";
+import pic9 from "../img/profiles/pic-0009.jpg";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -144,7 +145,7 @@ const AboutPage = ({ data }) => {
                 <div className="thead-body">
                   <div className="thead-body-left">
                     <div className="thead-username">lagiuly</div>
-                    <span className="is-block">Studente</span>
+                    <span className="is-block">Studentessa</span>
 
                     <img className="thead-avatar" src={pic6} alt="lagiuly avatar" style={{width: 80}}/>
 
@@ -207,7 +208,7 @@ const AboutPage = ({ data }) => {
                 <div className="thead-body">
                   <div className="thead-body-left">
                     <div className="thead-username">danyred</div>
-                    <span className="is-block">Studente</span>
+                    <span className="is-block">Studentessa</span>
 
                     <img className="thead-avatar" src={pic4} alt="danyred avatar" style={{width: 80}}/>
 
@@ -316,6 +317,37 @@ const AboutPage = ({ data }) => {
                     <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
                     <div className="section">
                       Non c'è niente da dire, il metodo funziona alla grande e non è illegale e soprattutto non è complicato. Assolutamente positivo, complimenti</div>
+
+                    <div className="thead-body-footer"></div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="thead-container">
+                <div className="thead-header">
+                  <div className="thead-header-left">2 Ottobre 2018, 5:39 PM</div>
+                  <div className="thead-header-right has-text-right">#9</div>
+                </div>
+                <div className="thead-body">
+                  <div className="thead-body-left">
+                    <div className="thead-username">sophia</div>
+                    <span className="is-block">Studentessa</span>
+
+                    <img className="thead-avatar" src={pic9} alt="sophia avatar" style={{width: 80}}/>
+
+                    <ul>
+                      <li>Città: Milano</li>
+                      <li>Condivisioni: 28</li>
+                      <li>Likes: 289</li>
+                    </ul>
+
+                  </div>
+                  <div className="thead-body-right">
+
+                    <div className="thead-body-description">Re: Uno studente universitario si mantiene gli studi arrivando a guadagnare fino a 5000€ all'anno</div>
+                    <div className="section">
+                      Ottimo e semplice metodo per guadagnare! Leggete le guide e già dopo le prime due operazioni sarà tutto in discesa! Consigliatissimo!</div>
 
                     <div className="thead-body-footer"></div>
 
