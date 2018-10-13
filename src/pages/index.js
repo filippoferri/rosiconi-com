@@ -32,10 +32,10 @@ export default class IndexPage extends React.Component {
 
           <div className="hero-body">
             <div className="container has-text-centered">
-              <span className="is-uppercase has-text-white has-text-weight-bold">Un aiuto valido per chi ha logori</span>
-              <h1 className="title is-huge has-text-white is-uppercase">denti & fegato</h1>
+              <span className="is-uppercase has-text-white has-text-weight-bold">Un metodo efficace per</span>
+              <h1 className="title is-huge has-text-white is-uppercase">non rosicare*</h1>
 
-              <Link to="/soldi-sicuri-matched-betting" className="button is-primary is-large is-uppercase is-rounded is-responsive">Come rosicare* meno</Link>
+              <Link to="/soldi-sicuri-matched-betting" className="button is-primary is-large is-uppercase is-rounded is-responsive">clicca qui</Link>
 
             </div>
           </div>
